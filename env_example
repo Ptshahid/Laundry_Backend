@@ -1,0 +1,11 @@
+# Local MongoDB Connection (For Development)
+# MONGO_URI=mongodb://localhost:27017/laundryDB
+
+# MongoDB Atlas Connection (For Deployment)
+MONGO_URI=mongodb+srv://<your_username>:<your_password>@cluster0.p1pex1z.mongodb.net/laundryDB?retryWrites=true&w=majority&appName=Cluster0  
+
+# Server Port
+PORT=5000
+
+# JWT Secret Key (Use a strong, random secret)
+JWT_SECRET=<your_jwt_secret>
